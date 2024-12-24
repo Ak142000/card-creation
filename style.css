@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;  
+}
+.container{
+    background-color: rgb(122, 8, 8);
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    margin-top: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.container button{
+    margin-left: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aqua;
+    color: black;
+    font: bold;
+    
+}
+.container input{
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 5px;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    font: bold;
+}
+.container input::placeholder{
+    padding: 3px; 
+}
+
+#add-button{
+    margin: 4px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: rgb(9, 1, 15);
+    color: white;
+    display: none;
+}
+#delete-button{
+    margin: 3px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: rgb(9, 1, 15);
+    color: white;
+    display: none;
+    position: fixed;
+    right: 90%;
+    bottom: 3%;
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+    
+}
+.cards{
+    width: 33%;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: ;
+}
+.cards img{
+    width: 100%;
+}
